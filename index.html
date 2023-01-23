@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/index.js" defer></script>
+  <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+</head>
+<body>
+  <main class="main">
+    <section class="main__dashboard dashboard container">
+      <div class="dashboard__information" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+        <h1 class="dashboard__title">
+          Social Media Dashboard
+        </h1>
+        <p class="dashboard__paragraph">
+          Total Followers: 23,004
+        </p>
+      </div>
+      <div class="dashboard__theme" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+        <p class="dashboard__text">
+          Dark Mode
+        </p>
+        <div class="dashboard__toggle">
+          <div class="toggle__circle"></div>
+        </div>
+      </div>
+    </section>
+    <section class="main__socialMedia socialMedia container">
+      <div class="socialMedia__card" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+        <div class="socialMedia__border facebook"></div>
+        <div>
+          <img src="./images/icon-facebook.svg" alt="Facebook" class="socialMedia__redSocial">
+          <p class="socialMedia__name">
+            @nathanf
+          </p>
+        </div>
+        <p class="socialMedia__followers">
+          1987
+        </p>
+        <p class="socialMedia__text">
+          Followers
+        </p>
+        <div class="">
+          <img src="./images/icon-up.svg" alt="" aria-disabled="true" class="socialMedia__icon">
+          <p class="socialMedia__today">
+            12 Today
+          </p>
+        </div>
+      </div>
+      <div class="socialMedia__card" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+        <div class="socialMedia__border twitter"></div>
+        <div>
+          <img src="./images/icon-twitter.svg" alt="Facebook" class="socialMedia__redSocial">
+          <p class="socialMedia__name">
+            @nathanf
+          </p>
+        </div>
+        <p class="socialMedia__followers">
+          1044
+        </p>
+        <p class="socialMedia__text">
+          Followers
+        </p>
+        <div class="">
+          <img src="./images/icon-up.svg" alt="" aria-disabled="true" class="socialMedia__icon">
+          <p class="socialMedia__today socialMedia__today-green">
+            99 Today
+          </p>
+        </div>
+      </div>
+      <div class="socialMedia__card" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+        <div class="socialMedia__border instagram"></div>
+        <div>
+          <img src="./images/icon-instagram.svg" alt="Facebook" class="socialMedia__redSocial">
+          <p class="socialMedia__name">
+            @realnathanf
+          </p>
+        </div>
+        <p class="socialMedia__followers">
+          11k
+        </p>
+        <p class="socialMedia__text">
+          Followers
+        </p>
+        <div class="">
+          <img src="./images/icon-up.svg" alt="" aria-disabled="true" class="socialMedia__icon">
+          <p class="socialMedia__today socialMedia__today-green">
+            1099 Today
+          </p>
+        </div>
+      </div>
+      <div class="socialMedia__card" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+        <div class="socialMedia__border youtube"></div>
+        <div>
+          <img src="./images/icon-youtube.svg" alt="Facebook" class="socialMedia__redSocial">
+          <p class="socialMedia__name">
+            Nathan F.
+          </p>
+        </div>
+        <p class="socialMedia__followers">
+          8239
+        </p>
+        <p class="socialMedia__text">
+          Subscribers
+        </p>
+        <div class="">
+          <img src="./images/icon-down.svg" alt="" aria-disabled="true" class="socialMedia__icon">
+          <p class="socialMedia__today socialMedia__today-red">
+            144 Today
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="main__overview overview container">
+      <h2 class="overview__title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+        Overview - Today
+      </h2>
+      <div class="overview__grid" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+        <div class="overview__card">
+          <div class="overview__container">
+            <p class="overview__paragraph">
+              Page Views
+            </p>
+            <img src="./images/icon-facebook.svg" alt="" class="overview__img">
+          </div>
+          <div class="overview__container">
+            <p class="overview__number">
+              87
+            </p>
+            <p class="overview_porcen overview_porcen-green">
+              <img src="./images/icon-up.svg" alt="facebook" aria-disabled="true">
+              3%
+            </p>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__container">
+            <p class="overview__paragraph">
+              Likes
+            </p>
+            <img src="./images/icon-facebook.svg" alt="facebook" class="overview__img">
+          </div>
+          <div class="overview__container">
+            <p class="overview__number">
+              52
+            </p>
+            <p class="overview_porcen overview_porcen-red">
+              <img src="./images/icon-down.svg" alt="" aria-disabled="true">
+              2%
+            </p>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__container">
+            <p class="overview__paragraph">
+              Likes
+            </p>
+            <img src="./images/icon-instagram.svg" alt="instagram" class="overview__img">
+          </div>
+          <div class="overview__container">
+            <p class="overview__number">
+              5462
+            </p>
+            <p class="overview_porcen overview_porcen-green">
+              <img src="./images/icon-up.svg" alt="" aria-disabled="true">
+              2257%
+            </p>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__container">
+            <p class="overview__paragraph">
+              Profile Views
+            </p>
+            <img src="./images/icon-instagram.svg" alt="instagram" class="overview__img">
+          </div>
+          <div class="overview__container">
+            <p class="overview__number">
+              52k
+            </p>
+            <p class="overview_porcen overview_porcen-green">
+              <img src="./images/icon-up.svg" alt="" aria-disabled="true">
+              1375%
+            </p>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__container">
+            <p class="overview__paragraph">
+              Retweets
+            </p>
+            <img src="./images/icon-twitter.svg" alt="twitter" class="overview__img">
+          </div>
+          <div class="overview__container">
+            <p class="overview__number">
+              117
+            </p>
+            <p class="overview_porcen overview_porcen-green">
+              <img src="./images/icon-up.svg" alt="" aria-disabled="true">
+              303%
+            </p>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__container">
+            <p class="overview__paragraph">
+              Likes
+            </p>
+            <img src="./images/icon-twitter.svg" alt="twitter" class="overview__img">
+          </div>
+          <div class="overview__container">
+            <p class="overview__number">
+              507
+            </p>
+            <p class="overview_porcen overview_porcen-green">
+              <img src="./images/icon-up.svg" alt="" aria-disabled="true">
+              553%
+            </p>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__container">
+            <p class="overview__paragraph">
+              Likes
+            </p>
+            <img src="./images/icon-youtube.svg" alt="youtube" class="overview__img">
+          </div>
+          <div class="overview__container">
+            <p class="overview__number">
+              107
+            </p>
+            <p class="overview_porcen overview_porcen-red">
+              <img src="./images/icon-down.svg" alt="" aria-disabled="true">
+              19%
+            </p>
+          </div>
+        </div>
+        <div class="overview__card" >
+          <div class="overview__container">
+            <p class="overview__paragraph">
+              Total Views
+            </p>
+            <img src="./images/icon-youtube.svg" alt="youtube" class="overview__img">
+          </div>
+          <div class="overview__container">
+            <p class="overview__number">
+              1407
+            </p>
+            <p class="overview_porcen overview_porcen-red">
+              <img src="./images/icon-down.svg" alt="" aria-disabled="true">
+              12%
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="main__attribution attribution container">
+      Coded by <a href="https://github.com/FLCHRIS" target="_blank">FLCHRIS</a>.
+    </div>
+  </main>
+</body>
+</html>
