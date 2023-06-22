@@ -113,19 +113,19 @@ export const Main = () => {
   ]
   return (
     <main className='px-[1.55rem] pt-[.5rem] bg-White dark:bg-VeryDarkBlue lg:px-[9rem] lg:pt-[1rem]'>
-      <section className='grid gap-[1.6rem] pb-[2rem] sm:grid-cols-2 lg:grid-cols-4'>
+      <div className='grid gap-[1.6rem] pb-[2rem] sm:grid-cols-2 lg:grid-cols-4'>
         {data.map((article, index) => (
           <Card {...article} key={index} />
         ))}
-      </section>
-      <section className='mt-[.6rem] pb-[2.9rem]'>
+      </div>
+      <div className='mt-[.6rem] pb-[2.9rem]'>
         <h2 className='font-inter font-[700] text-[1.53rem] text-VeryDarkBlueText mb-[1.5rem] dark:text-WhiteText'>Overview - Today</h2>
         <div className='grid gap-[1rem] sm:grid-cols-2 lg:grid-cols-4 lg:gap-[1.5rem]'>
           {views.map((view, index) => (
             <View {...view} key={index} />
           ))}
         </div>
-      </section>
+      </div>
     </main>
   )
 }
