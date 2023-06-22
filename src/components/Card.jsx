@@ -8,9 +8,9 @@ export const Card = ({ red, icon, followers, today, name, color }) => {
         <img src={red} alt='' role='none' className='inline-block mr-3' />
         {name}
       </a>
-      <h1 className='text-center mt-[1.4rem] font-inter font-[700] text-[3.5rem] leading-[1] text-VeryDarkBlueText dark:text-WhiteText'>
+      <h2 className='text-center mt-[1.4rem] font-inter font-[700] text-[3.5rem] leading-[1] text-VeryDarkBlueText dark:text-WhiteText'>
         {followers}
-      </h1>
+      </h2>
       <p className='font-inter mt-[.1rem] tracking-[.2rem] text-center  text-[.9rem] text-DarkGrayishBlue dark:text-DesaturatedBlue'>
         FOLLOWERS
       </p>
