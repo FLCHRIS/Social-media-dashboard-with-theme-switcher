@@ -23,7 +23,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-OPUssc0bk6)
+- [Solution URL](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-Qg4NwNO-Bu)
 - [Live Site URL](https://lucky-gingersnap-2f271b.netlify.app/)
 
 ## My process
